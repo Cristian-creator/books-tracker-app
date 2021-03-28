@@ -6,9 +6,7 @@ function Home() {
     
     return (
         <div>
-            user interface for add book on mybooks / wishlist - different forms and ready to go 
-            <br/>
-            dynamic rating - add ratings to books
+            homepage
         </div>
     )
 }

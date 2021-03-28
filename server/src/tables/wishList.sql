@@ -1,4 +1,4 @@
-CREATE TABLE my_books_list (
+CREATE TABLE wish_list (
     book_id VARCHAR(100),
     title VARCHAR(255),
     author VARCHAR(255),
