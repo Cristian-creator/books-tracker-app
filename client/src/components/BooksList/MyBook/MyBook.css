@@ -1,0 +1,53 @@
+.my-book-container {
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.my-book-container .my-book-informations {
+  margin-left: 1rem;
+  max-width: 450px;
+}
+
+.my-book-container .my-book-informations h2 {
+  font-weight: 500;
+}
+
+.my-book-container .my-book-informations h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.my-book-container .my-book-informations .my-book-ratings {
+  margin: 12px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.8rem;
+  margin-bottom: 12px;
+}
+
+.my-book-container .my-book-informations .my-book-ratings h1:first-child {
+  border: 2px solid black;
+  background: orange;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.my-book-container .my-book-informations > span {
+  display: block;
+}
+
+.my-book-container .my-book-informations .my-book-description {
+  margin-top: 12px;
+}
+/*# sourceMappingURL=MyBook.css.map */

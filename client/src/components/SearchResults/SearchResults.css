@@ -1,0 +1,8 @@
+.search-results {
+  position: absolute;
+  top: 40px;
+  background: #f7ecde;
+  padding: 5px 10px;
+  z-index: 100;
+}
+/*# sourceMappingURL=SearchResults.css.map */

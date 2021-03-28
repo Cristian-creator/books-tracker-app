@@ -1,0 +1,10 @@
+.search-results {
+    position: absolute;
+    top: 40px;
+    // background: rgba(124, 119, 114, 0.95);
+    // background: #543714;
+    background: lighten(#543714, 71.5%) ;
+    padding: 5px 10px;
+
+    z-index: 100;
+}

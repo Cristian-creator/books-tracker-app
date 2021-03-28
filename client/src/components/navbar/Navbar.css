@@ -1,0 +1,55 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar h1 {
+  font-weight: 100;
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  color: rgba(84, 55, 20, 0.8);
+}
+
+.navbar h1 span {
+  font-weight: 0 !important;
+}
+
+.navbar > div > a {
+  padding: 20px;
+  height: 40px;
+  color: rgba(84, 55, 20, 0.8);
+}
+
+.navbar > div > a:hover {
+  background: rgba(84, 55, 20, 0.8);
+  color: white;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.navbar .search-div input, .navbar > i {
+  background-color: rgba(84, 55, 20, 0.1);
+  border: 1px solid rgba(84, 55, 20, 0.2);
+  font-size: 1rem;
+  color: rgba(84, 55, 20, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar .search-div {
+  position: relative;
+}
+/*# sourceMappingURL=Navbar.css.map */

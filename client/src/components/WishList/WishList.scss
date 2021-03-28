@@ -1,0 +1,25 @@
+.wish-list-container {
+    position: relative;
+
+    margin: 10px auto;
+    width: 70%;
+    height: 500px;
+
+    // background: url("../../images/thinking1.png");
+    // background-position: center;
+    // background-size: ;
+    // background-repeat: no-repeat;
+
+    &>img {
+        position: absolute;
+        z-index: -100;
+
+        top: 100px;
+        left: 0;
+        right: 0;
+        margin-right: auto;
+        margin-left: auto;
+
+        opacity: 0.3;
+    }
+}
